@@ -1,6 +1,7 @@
 package com.file1.sort;
 
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Sort {
@@ -102,7 +103,22 @@ public class Sort {
         return timeEnd-timeBegin;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Sort sort = (Sort) o;
+        return n == sort.n &&
+                Arrays.equals(array, sort.array);
+    }
 
+    @Override
+    public int hashCode() {
+        int result = 17;
+        result = 31*result + n;
+        result = 31 * result + Arrays.hashCode(array);
+        return result;
+    }
 }
 
 
