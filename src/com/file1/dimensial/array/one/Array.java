@@ -1,4 +1,4 @@
-package com.file1.oneDimensialArray;
+package com.file1.dimensial.array.one;
 
 import java.util.ArrayList;
 import java.util.Arrays;

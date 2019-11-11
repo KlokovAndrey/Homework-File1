@@ -1,9 +1,6 @@
-package com.file1.twoDimensialArray;
-
-import com.file1.oneDimensialArray.Array;
+package com.file1.dimensial.array.two;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Random;
 
 import static java.lang.Math.abs;

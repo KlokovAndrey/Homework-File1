@@ -1,10 +1,6 @@
 package com.file1;
 
-import com.file1.draw.DrawTest;
-import com.file1.factorial.FactorialTest;
-import com.file1.oneDimensialArray.ArrayTest;
-import com.file1.sort.SortTest;
-import com.file1.twoDimensialArray.PolyArrayTest;
+import com.file1.dimensial.array.two.PolyArrayTest;
 
 public class Main {
     public static void main(String[] args) {

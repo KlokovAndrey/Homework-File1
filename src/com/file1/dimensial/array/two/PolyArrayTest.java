@@ -1,4 +1,4 @@
-package com.file1.twoDimensialArray;
+package com.file1.dimensial.array.two;
 
 public class PolyArrayTest {
     public PolyArrayTest(){
